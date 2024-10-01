@@ -19,8 +19,15 @@ class $AssetsImagesGen {
 class $AssetsImagesPngGen {
   const $AssetsImagesPngGen();
 
+  /// File path: assets/images/png/Onboarding.png
+  AssetGenImage get onboarding =>
+      const AssetGenImage('assets/images/png/Onboarding.png');
+
   /// File path: assets/images/png/b1.png
   AssetGenImage get b1 => const AssetGenImage('assets/images/png/b1.png');
+
+  /// File path: assets/images/png/bck.png
+  AssetGenImage get bck => const AssetGenImage('assets/images/png/bck.png');
 
   /// File path: assets/images/png/beach.png
   AssetGenImage get beach => const AssetGenImage('assets/images/png/beach.png');
@@ -32,12 +39,67 @@ class $AssetsImagesPngGen {
   /// File path: assets/images/png/bg1.jpg
   AssetGenImage get bg1 => const AssetGenImage('assets/images/png/bg1.jpg');
 
+  /// File path: assets/images/png/brd1.jpg
+  AssetGenImage get brd1 => const AssetGenImage('assets/images/png/brd1.jpg');
+
+  /// File path: assets/images/png/brd2.png
+  AssetGenImage get brd2 => const AssetGenImage('assets/images/png/brd2.png');
+
+  /// File path: assets/images/png/brd3.png
+  AssetGenImage get brd3 => const AssetGenImage('assets/images/png/brd3.png');
+
+  /// File path: assets/images/png/climb.png
+  AssetGenImage get climb => const AssetGenImage('assets/images/png/climb.png');
+
+  /// File path: assets/images/png/des.png
+  AssetGenImage get des => const AssetGenImage('assets/images/png/des.png');
+
+  /// File path: assets/images/png/flight.png
+  AssetGenImage get flight =>
+      const AssetGenImage('assets/images/png/flight.png');
+
+  /// File path: assets/images/png/getstarted.png
+  AssetGenImage get getstarted =>
+      const AssetGenImage('assets/images/png/getstarted.png');
+
+  /// File path: assets/images/png/onb1.png
+  AssetGenImage get onb1 => const AssetGenImage('assets/images/png/onb1.png');
+
   /// File path: assets/images/png/onbaord1.png
   AssetGenImage get onbaord1 =>
       const AssetGenImage('assets/images/png/onbaord1.png');
 
+  /// File path: assets/images/png/test.png
+  AssetGenImage get test => const AssetGenImage('assets/images/png/test.png');
+
+  /// File path: assets/images/png/tra2.jpg
+  AssetGenImage get tra2 => const AssetGenImage('assets/images/png/tra2.jpg');
+
+  /// File path: assets/images/png/travel.png
+  AssetGenImage get travel =>
+      const AssetGenImage('assets/images/png/travel.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [b1, beach, beach2, bg1, onbaord1];
+  List<AssetGenImage> get values => [
+        onboarding,
+        b1,
+        bck,
+        beach,
+        beach2,
+        bg1,
+        brd1,
+        brd2,
+        brd3,
+        climb,
+        des,
+        flight,
+        getstarted,
+        onb1,
+        onbaord1,
+        test,
+        tra2,
+        travel
+      ];
 }
 
 class Assets {

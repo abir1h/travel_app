@@ -44,6 +44,8 @@ dependencies:
   flutter_screenutil: ^5.9.0
   smooth_page_indicator:
   onboarding_animation: ^0.0.3
+  animated: ^2.0.0
+  rive:
 dev_dependencies:
   get_cli:
   flutter_gen_runner:
@@ -73,6 +75,7 @@ flutter:
     - assets/images/png/
     - assets/images/svg/
     - assets/images/icon/
+    - assets/RiveAssets/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
