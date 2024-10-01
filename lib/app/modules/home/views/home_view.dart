@@ -1,8 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:rive/rive.dart';
 
+import '../../../utils/colors.dart';
 import '../../../utils/rive_utils.dart';
 import '../components/btm_nav_item.dart';
 import '../components/menu_btn.dart';
@@ -64,7 +66,11 @@ class _EntryPointState extends State<EntryPoint>
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { SystemChrome.setSystemUIOverlayStyle(
+    SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent, // Change the color here
+      statusBarIconBrightness: Brightness.light,      ),
+  );
     return Scaffold(
       extendBody: true,
       resizeToAvoidBottomInset: false,
